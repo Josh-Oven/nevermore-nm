@@ -27,6 +27,7 @@ body {
   height: auto;
   // border: 1px solid black;
   border-radius: 5px;
+  margin: 5px 0px 10px 5px;
 
   .logo-container {
     width: auto;
@@ -40,7 +41,7 @@ body {
     .logo {
       margin-left: 2.5%;
       color: #333F65;
-      font-size: 35px;
+      font-size: 50px;
       // font-weight: bold;
       font-family: 'Montserrat';
     }
@@ -56,6 +57,39 @@ body {
   background-size: cover;
   // border: 1px solid blue;
   border-radius: 2.5px;
+}
+
+.page-title-container-centered {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+
+  .title-container {
+    width: auto;
+    height: auto;
+    // border: 1px solid black;
+
+    .title {
+      font-size: 50px;
+      font-family: 'Montserrat';
+      color: gray;
+    }
+  }
+
+  .icon-container {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    // border: 1px solid black;
+    margin-top: -105px;
+    margin-left: 150px;
+
+    i {
+      font-size: 30px;
+      color: #333F65;
+    }
+  }
 }
 
 #page-title-container {
@@ -106,7 +140,7 @@ body {
 #estimate-bar {
   width: 98vw;
   height: auto;
-  // border: 1px solid black;
+  margin-bottom: 50px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
