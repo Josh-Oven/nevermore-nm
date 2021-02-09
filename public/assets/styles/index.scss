@@ -70,6 +70,10 @@ body {
     justify-content: flex-start;
   }
 
+  @media (min-width: 415px) {
+    justify-content: space-around;
+  }
+
   .title-container {
     width: auto;
     height: auto;
@@ -83,6 +87,10 @@ body {
       margin-left: 8%;
     }
 
+    @media (min-width: 415px) {
+      margin-left: 0px;
+    }
+
     .title {
       font-size: 60px;
       font-family: 'Montserrat';
@@ -90,6 +98,27 @@ body {
 
       @media (min-width: 400px) {
         font-size: 70px;
+      }
+
+      @media (min-width: 600px) {
+        display: none;
+      }
+    }
+
+    .connected-title {
+      font-size: 60px;
+      font-family: 'Montserrat';
+      color: gray;
+      display: none;
+
+      @media (min-width: 600px) {
+        display: inherit;
+      }
+
+      i {
+        font-size: 50px;
+        color: #333F65;
+        margin-left: 20px;
       }
     }
   }
@@ -110,6 +139,10 @@ body {
     @media (min-width: 400px) {
       margin-top: -145px;
       margin-left: 210px;
+    }
+
+    @media (min-width: 600px) {
+      display: none;
     }
 
     i {
@@ -167,6 +200,22 @@ body {
       margin-left: 230px;
     }
 
+    @media (min-width: 415px) {
+      right: 5%;
+    }
+
+    @media (min-width: 500px) {
+      width: 200px;
+      height: 200px;
+      margin-top: -250px;
+    }
+
+    @media (min-width: 600px) {
+      width: 250px;
+      height: 250px;
+      margin-top: -280px;
+    }
+
     img {
       width: 100%;
       height: 100%;
@@ -178,7 +227,7 @@ body {
   width: 98vw;
   height: auto;
   margin: auto;
-  // border: 1px solid black;
+  border: 1px solid black;
 
   .page-intro-text {
     padding: 5%;
@@ -222,6 +271,10 @@ body {
 
       @media (min-width: 400px) {
         font-size: 50px;
+      }
+
+      @media (min-width: 600px) {
+        font-size: 70px;
       }
 
     }
