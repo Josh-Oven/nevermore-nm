@@ -267,12 +267,18 @@ body {
   width: 98%;
   height: auto;
   margin: auto;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   margin-top: 10px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
+  background-image: url('assets/images/general/fire-pit.png');
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  border-radius: 2.5px;
   // border: 1px solid black;
 
   .estimate-title-container {
@@ -286,6 +292,8 @@ body {
 
     p {
       color: #333F65;
+      border-radius: 2.5px;
+      background-color: rgba(200, 200, 200, .5);
       font-size: 40px;
       font-family: 'Montserrat';
 
